@@ -52,7 +52,7 @@
 #include <dynamic_reconfigure/server.h>
 #include <dynamic_social_costmap/SocialCostmapConfig.h>
 
-#include <pluginlib/class_list_macros.h>
+#include <pluginlib/class_list_macros.hpp>
 
 namespace dynamic_social_costmap
 {
