@@ -3,9 +3,9 @@ local_costmap:
   global_frame: map
   robot_base_frame: base_footprint
 
-  update_frequency: 10.0
+  update_frequency: 5.0
   transform_tolerance: 0.5   # Tolerable delay 
-  publish_frequency: 10.0 #rate in Hz that costmap will publish visualization info
+  publish_frequency: 5.0 #rate in Hz that costmap will publish visualization info
   
   static_map: false 
   rolling_window: true #costmap will remain centered around robot
